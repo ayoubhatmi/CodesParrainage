@@ -57,8 +57,8 @@ const OfferDetails = () => {
 
         <p className={Styles.instruction}>
           <span> Instruction :</span> Pour profiter de cette offre de parrainage
-          vous devez copier le code ci-dessous à coller dans le formulaire
-          d'inscription ou cliquer sur le lien ci-dessous afin de vous inscrire
+          vous devez copier le code ci-dessus à coller dans le formulaire
+          d'inscription ou cliquer sur le lien ci-dessus afin de vous inscrire
           directement.
         </p>
 
