@@ -1,0 +1,103 @@
+.OfferDetailsPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+  background-color: #edf2f9;
+
+  .container {
+    display: flex;
+    max-width: 80%;
+    justify-content: flex-start;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: white;
+    padding: 2rem;
+
+    @media (max-width: 678px) {
+      max-width: 100%;
+    }
+  }
+
+  .horizontalContainer {
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+  }
+
+  .header {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #1a2e45;
+  }
+
+  .text {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+
+  .subheader {
+    display: flex;
+    align-items: center;
+    color: #1a2e45;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    span {
+      color: #fa0289;
+    }
+
+    .icon {
+      margin-right: 1rem;
+    }
+  }
+  .link {
+    text-decoration: underline;
+    font-size: 1rem;
+  }
+  .instruction {
+    margin-top: 1rem;
+    font-size: 1rem;
+    span {
+      font-weight: 600;
+    }
+  }
+
+  .logoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: 1px solid #9a9a9a;
+    border-radius: 10px;
+    width: 300px;
+    margin-right: 2rem;
+    height: 200px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .logo {
+    width: 100%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+  }
+
+  .btn {
+    display: flex;
+    background-color: #fa0289;
+    padding: 0.75rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    text-align: center;
+    // margin-top: 1rem;
+    font-weight: 500;
+    border-radius: 64px;
+    color: #fff;
+    display: inline-block;
+    &:hover {
+      background-color: #1a2e45;
+    }
+  }
+}

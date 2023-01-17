@@ -1,0 +1,22 @@
+.blogPageContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+  text-align: center;
+  background-color: #edf2f9;
+
+  .cardContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 80%;
+  }
+  .header {
+    font-size: 2rem;
+    color: #1a2e45;
+    font-weight: 600;
+  }
+}

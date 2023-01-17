@@ -1,0 +1,56 @@
+.Footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #1a2e45;
+  color: white;
+  .listContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 3rem 1rem;
+    max-width: 1080px;
+    @media only screen and (max-width: 768px) {
+      flex-direction: column;
+    }
+  }
+
+  .list {
+    list-style: none;
+    align-self: flex-start;
+    margin-bottom: 1rem;
+  }
+
+  .listHeader {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+  }
+
+  .listItem {
+    &:hover {
+      color: #fa0289;
+      cursor: pointer;
+    }
+  }
+
+  .copyright {
+    margin-bottom: 1rem;
+    color: gray;
+    font-size: 0.75rem;
+  }
+
+  .socialMediaLink {
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    margin-right: 0.25rem;
+
+    &:hover {
+      color: #fa0289;
+      cursor: pointer;
+    }
+  }
+}
