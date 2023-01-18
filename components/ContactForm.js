@@ -5,20 +5,21 @@ import "./ContactForm.scss";
 
 const ContactForm = () => {
   const form = useRef();
-
   const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs
       .sendForm(
-        process.env.EMAILJS_SERVICE_ID,
-        process.env.EMAILJS_TEMPLATE_ID,
+        "service_kc1tluh",
+        "template_8tkqyxf",
         form.current,
-        process.env.EMAILJS_PUBLIC_KEY
+        "4kfiq0uhTc98yr3UR"
       )
       .then(
         (result) => {},
-        (error) => {}
+        (error) => {
+          console.log(error);
+        }
       );
 
     e.target.reset();

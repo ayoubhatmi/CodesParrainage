@@ -5,7 +5,6 @@ const page = () => {
   return (
     <div className={Styles.ContactPageContainer}>
       <p className={Styles.header}>Contactez-Nous</p>
-
       <ContactForm />
     </div>
   );
