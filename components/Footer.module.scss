@@ -1,10 +1,13 @@
+@import "../scss/_colors.module.scss";
+
 .Footer {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-color: #1a2e45;
-  color: white;
+  background-color: $dark-background;
+  color: $white;
+
   .listContainer {
     display: flex;
     justify-content: space-between;
@@ -31,25 +34,25 @@
 
   .listItem {
     &:hover {
-      color: #fa0289;
+      color: $alt-color;
       cursor: pointer;
     }
   }
 
   .copyright {
     margin-bottom: 1rem;
-    color: gray;
+    color: $grey;
     font-size: 0.75rem;
   }
 
   .socialMediaLink {
-    color: white;
+    color: $white;
     text-decoration: none;
     font-size: 2rem;
     margin-right: 0.25rem;
 
     &:hover {
-      color: #fa0289;
+      color: $alt-color;
       cursor: pointer;
     }
   }

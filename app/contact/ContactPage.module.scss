@@ -1,15 +1,10 @@
+@import "../scss/_colors.module.scss";
+
 .ContactPageContainer {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  // padding: 3rem 0;
-  padding: 1rem;
-  background-color: #edf2f9;
-  .header {
-    font-size: 2rem;
-    margin-bottom: 2rem;
-    color: #1a2e45;
-    font-weight: 600;
-  }
+  padding: 3rem 1rem;
+  background-color: $light-background;
 }

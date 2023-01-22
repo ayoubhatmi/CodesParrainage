@@ -29,14 +29,15 @@ const BolgPostPage = async ({ params }) => {
   return (
     <div className={Styles.bolgPostPage}>
       <div className={Styles.container}>
+        <h2 className={Styles.title}>{post.title}</h2>
+        <p className={Styles.date}>Publié le {post.date}</p>
+
         <Image
           src={"http:" + post.image.fields.file.url}
           className={Styles.img}
           width={852}
           height={480}
         />
-        <h2 className={Styles.title}>{post.title}</h2>
-        <p className={Styles.date}>{post.date}</p>
         <div className={Styles.text}>
           {documentToReactComponents(post.text)}
         </div>

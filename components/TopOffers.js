@@ -6,7 +6,7 @@ import { topOffers } from "../data/topOffers";
 const TopOffers = () => {
   return (
     <div className={Styles.topOffers}>
-      <p className={Styles.header}>Les plus populaires 🔥</p>
+      <h2>Les plus populaires 🔥</h2>
       <div className={Styles.cardContainer}>
         {topOffers.map((offer, index) => (
           <OfferCard

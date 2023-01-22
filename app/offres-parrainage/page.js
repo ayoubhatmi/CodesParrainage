@@ -5,7 +5,7 @@ import { offers } from "../../data/offers";
 const OffresParrainage = () => {
   return (
     <div className={Styles.offresPage}>
-      <h1 className={Styles.header}>Les offres de parrainage disponibles</h1>
+      <h2>Les offres de parrainage disponibles</h2>
       <div className={Styles.cardContainer}>
         {offers.map((offer, index) => (
           <OfferCard

@@ -1,13 +1,11 @@
-import FAQ from "../components/FAQ";
-import HeroSection from "../components/HeroSection";
+import Hero from "../components/Hero";
 import TopOffers from "../components/TopOffers";
 
 const Page = () => {
   return (
     <>
-      <HeroSection />
+      <Hero />
       <TopOffers />
-      
     </>
   );
 };

@@ -1,10 +1,12 @@
+@import "../scss/_colors.module.scss";
+
 .topOffers {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: #edf2f9;
-  padding: 1rem;
+  background-color: $light-background;
+  padding: 3rem 1rem;
   .cardContainer {
     display: flex;
     justify-content: center;
@@ -12,25 +14,21 @@
     flex-wrap: wrap;
     width: 100%;
     max-width: 900px;
-  }
-  .header {
-    font-size: 2rem;
-    color: #1a2e45;
-    font-weight: 600;
+    margin-top: 1rem;
   }
 
   .btn {
-    background-color: #fa0289;
+    background-color: $alt-color;
     padding: 0.75rem;
     padding-left: 2rem;
     padding-right: 2rem;
     font-weight: 500;
     border-radius: 64px;
-    color: #fff;
+    color: $white;
     display: inline-block;
     margin-top: 1.5rem;
     &:hover {
-      background-color: #1a2e45;
+      background-color: $main-color;
     }
   }
 }

@@ -1,19 +1,19 @@
 "use client";
+import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
+import logo from "../images/logo.png";
 
 const Navbar = () => {
   const [navbar, setNavbar] = useState(false);
 
   return (
-    <nav className="w-full bg-dark-blue shadow">
+    <nav className="w-full bg-white shadow">
       <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
         <div>
-          <div className="flex items-center justify-between py-3 md:py-5 md:block">
+          <div className="flex items-center justify-between py-2 md:py-2 md:block">
             <a href="/">
-              <h2 className="text-2xl text-white font-bold">
-                Codes<span className="text-pink-color">Parrainage</span>
-              </h2>
+              <Image className="w-2/4" src={logo} />
             </a>
             <div className="md:hidden">
               <button
@@ -23,7 +23,7 @@ const Navbar = () => {
                 {navbar ? (
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="w-6 h-6 text-white"
+                    className="w-6 h-6 text-black"
                     viewBox="0 0 20 20"
                     fill="currentColor"
                   >
@@ -36,7 +36,7 @@ const Navbar = () => {
                 ) : (
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="w-6 h-6 text-white"
+                    className="w-6 h-6 text-black"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -62,7 +62,7 @@ const Navbar = () => {
             <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
               <li>
                 <Link
-                  className="text-white hover:text-pink-color font-medium"
+                  className="text-black font-bold hover:text-pink-color"
                   href="/"
                 >
                   Accueil
@@ -71,7 +71,7 @@ const Navbar = () => {
 
               <li>
                 <Link
-                  className="text-white hover:text-pink-color font-medium"
+                  className="text-black font-bold hover:text-pink-color"
                   href="/offres-parrainage"
                 >
                   Offres de parrainage
@@ -80,7 +80,7 @@ const Navbar = () => {
 
               <li>
                 <Link
-                  className="text-white hover:text-pink-color font-medium"
+                  className="text-black font-bold hover:text-pink-color"
                   href="/blog"
                 >
                   Blog

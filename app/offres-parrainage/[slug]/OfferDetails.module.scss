@@ -1,10 +1,12 @@
+@import "../scss/_colors.module.scss";
+
 .OfferDetailsPage {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   padding: 1rem;
-  background-color: #edf2f9;
+  background-color: $light-background;
 
   .container {
     display: flex;
@@ -12,7 +14,7 @@
     justify-content: flex-start;
     flex-direction: column;
     border-radius: 10px;
-    background-color: white;
+    background-color: $white;
     padding: 2rem;
 
     @media (max-width: 678px) {
@@ -30,7 +32,7 @@
     font-size: 3rem;
     font-weight: 600;
     margin-bottom: 1rem;
-    color: #1a2e45;
+    color: $main-color;
   }
 
   .text {
@@ -41,12 +43,12 @@
   .subheader {
     display: flex;
     align-items: center;
-    color: #1a2e45;
+    color: $main-color;
     font-size: 1.8rem;
     font-weight: 600;
     margin-bottom: 1rem;
     span {
-      color: #fa0289;
+      color: $alt-color;
     }
 
     .icon {
@@ -69,7 +71,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    outline: 1px solid #9a9a9a;
+    outline: 1px solid $grey;
     border-radius: 10px;
     width: 300px;
     margin-right: 2rem;
@@ -86,18 +88,17 @@
 
   .btn {
     display: flex;
-    background-color: #fa0289;
+    background-color: $alt-color;
     padding: 0.75rem;
     padding-left: 2rem;
     padding-right: 2rem;
     text-align: center;
-    // margin-top: 1rem;
     font-weight: 500;
     border-radius: 64px;
-    color: #fff;
+    color: $white;
     display: inline-block;
     &:hover {
-      background-color: #1a2e45;
+      background-color: $main-color;
     }
   }
 }

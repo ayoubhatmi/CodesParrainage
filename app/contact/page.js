@@ -4,7 +4,7 @@ import ContactForm from "../../components/ContactForm";
 const page = () => {
   return (
     <div className={Styles.ContactPageContainer}>
-      <p className={Styles.header}>Contactez-Nous</p>
+      <h2>Contactez-Nous</h2>
       <ContactForm />
     </div>
   );

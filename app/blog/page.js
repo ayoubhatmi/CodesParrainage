@@ -14,7 +14,7 @@ export default async function BlogPage() {
 
   return (
     <div className={Styles.blogPageContainer}>
-      <h1 className={Styles.header}>Bienvenue sur notre blog !</h1>
+      <h2>Bienvenue sur notre blog !</h2>
       <div className={Styles.cardContainer}>
         {items.map((item) => (
           <PostCard

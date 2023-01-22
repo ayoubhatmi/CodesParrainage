@@ -1,10 +1,13 @@
+@import "../scss/_colors.module.scss";
+
 form {
   display: flex;
   flex-direction: column;
   width: 100%;
   align-items: center;
+  margin-top: 2rem;
   .input-case {
-    background-color: white;
+    background-color: $white;
     padding: 1rem;
     height: 35px;
     padding-left: 1em;
@@ -29,7 +32,7 @@ form {
   }
   .send-btn {
     cursor: pointer;
-    background-color: #fa0289;
+    background-color: $alt-color;
     padding: 0.75rem;
     padding-left: 2rem;
     padding-right: 2rem;
@@ -38,9 +41,8 @@ form {
     width: 200px;
     color: #fff;
     display: inline-block;
-    // margin-top: 1em;
     &:hover {
-      background-color: #1a2e45;
+      background-color: $main-color;
     }
   }
 }
