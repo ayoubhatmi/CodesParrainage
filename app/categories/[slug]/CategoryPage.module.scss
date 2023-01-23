@@ -1,20 +1,24 @@
 @import "../scss/_colors.module.scss";
 
-.blogPageContainer {
+.categoryPage {
   display: flex;
   align-items: center;
   flex-direction: column;
+  background-color: $light-background;
   padding: 3rem 1rem;
   text-align: center;
   min-height: 70vh;
-  background-color: $light-background;
+
+  span {
+    color: $alt-color;
+  }
 
   .cardContainer {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin-top: 1rem;
     max-width: 100%;
+    margin-top: 1rem;
   }
 }

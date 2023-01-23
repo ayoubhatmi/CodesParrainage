@@ -63,7 +63,7 @@ export const offers = [
     name: "Veepee",
     logo: VeepeeLogo,
     slug: "parrainage-veepee",
-    category: "E-commerce",
+    category: "Mode, Vêtements",
     description:
       "Vous rêviez d'acquérir des produits de grandes marques à prix cassés ? Vente Privée l'a fait ! Retrouvez, chaque jour, de nouvelles promo sur vos vêtements préférées mais aussi sur un ensemble d'équipements pour la maison, sur des voyages ou bien encore de la gastronomie.",
     offer: "10€ bon d'achat", //Avantages filleul
@@ -112,7 +112,7 @@ export const offers = [
     name: "Showroomprive",
     logo: ShowroompriveLogo,
     slug: "parrainage-showroomprive",
-    category: "E-commerce",
+    category: "Mode, Vêtements",
     description:
       "Wirex est une banque en ligne nouvelle génération qui permet aux particuliers d'avoir un compte en devises traditionnelles (FIAT) et virtuelles avec toutes les crypto monnaies actuellement sur le marché. Vous bénéficiez grâce au compte WIREX d’une carte de paiement VISA (carte de débit classique) qui permet de régler avec des crypto monnaies ou de retirer de l’argent contre des monnaies virtuelles. Wirex c’est également un moyen de transférer de l’argent à l’international en quelques secondes, plus rapide et moins cher que dans un établissement bancaire classique.",
     offer: "12€ bon d'achat", //Avantages filleul

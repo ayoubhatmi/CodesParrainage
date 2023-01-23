@@ -77,6 +77,14 @@ const Navbar = () => {
                   Offres de parrainage
                 </Link>
               </li>
+              <li>
+                <Link
+                  className="text-black font-bold hover:text-pink-color"
+                  href="/categories"
+                >
+                  Catégories
+                </Link>
+              </li>
 
               <li>
                 <Link

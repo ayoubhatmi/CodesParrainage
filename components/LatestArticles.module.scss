@@ -1,13 +1,12 @@
 @import "../scss/_colors.module.scss";
 
-.blogPageContainer {
+.latestArticles {
   display: flex;
+  justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 3rem 1rem;
-  text-align: center;
-  min-height: 70vh;
   background-color: $light-background;
+  padding: 3rem 0;
 
   .cardContainer {
     display: flex;

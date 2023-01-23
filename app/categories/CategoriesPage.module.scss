@@ -1,14 +1,13 @@
 @import "../scss/_colors.module.scss";
 
-.blogPageContainer {
+.categoriesPageContainer {
   display: flex;
-  align-items: center;
+   align-items: center;
   flex-direction: column;
   padding: 3rem 1rem;
-  text-align: center;
-  min-height: 70vh;
   background-color: $light-background;
-
+  min-height: 70vh;
+  text-align: center;
   .cardContainer {
     display: flex;
     justify-content: center;

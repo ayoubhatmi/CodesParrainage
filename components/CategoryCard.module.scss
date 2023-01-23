@@ -1,0 +1,37 @@
+@import "../scss/_colors.module.scss";
+
+.categoryCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  flex-direction: column;
+  background-color: $white;
+  width: 14rem;
+  border-radius: 10px;
+  margin: 1rem;
+  padding: 2rem 1rem;
+  overflow: hidden;
+
+  &:hover {
+    transform: scale(1.1, 1.1);
+    -webkit-transform: scale(1.1, 1.1);
+    -moz-transform: scale(1.1, 1.1);
+    cursor: pointer;
+  }
+
+  .logo {
+    color: $main-color;
+    font-size: 4rem;
+  }
+
+  .name {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: $main-color;
+  }
+  .availableOffers {
+    font-size: 1rem;
+    color: $grey;
+  }
+}

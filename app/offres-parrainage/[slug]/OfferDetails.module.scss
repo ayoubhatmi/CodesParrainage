@@ -5,12 +5,12 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 1rem;
+  padding: 3rem 1rem;
   background-color: $light-background;
 
   .container {
     display: flex;
-    max-width: 80%;
+    max-width: 70%;
     justify-content: flex-start;
     flex-direction: column;
     border-radius: 10px;
@@ -29,7 +29,7 @@
   }
 
   .header {
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 600;
     margin-bottom: 1rem;
     color: $main-color;
