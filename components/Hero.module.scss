@@ -57,10 +57,6 @@
     display: flex;
     justify-content: center;
 
-    @include breakpoints(mobile) {
-      margin-bottom: 2rem;
-    }
-
     @include breakpoints(large) {
       max-width: 50%;
     }
