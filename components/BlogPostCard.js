@@ -1,10 +1,10 @@
 "use client";
 
 import Image from "next/image";
-import Styles from "./PostCard.module.scss";
+import Styles from "./BlogPostCard.module.scss";
 import { useRouter } from "next/navigation";
 
-const PostCard = ({ image, title, date, slug }) => {
+const BlogPostCard = ({ image, title, date, slug }) => {
   const router = useRouter();
 
   const HandelClick = () => {
@@ -12,12 +12,13 @@ const PostCard = ({ image, title, date, slug }) => {
   };
 
   return (
-    <div className={Styles.postCard} onClick={HandelClick}>
+    <div className={Styles.BlogPostCard} onClick={HandelClick}>
       <Image
         className={Styles.image}
         src={"http:" + image.fields.file.url}
         width={350}
         height={150}
+        alt=""
       />
       <h2 className={Styles.title}>{title}</h2>
       <p className={Styles.date}>{date}</p>
@@ -25,4 +26,4 @@ const PostCard = ({ image, title, date, slug }) => {
   );
 };
 
-export default PostCard;
+export default BlogPostCard;

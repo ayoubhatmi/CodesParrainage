@@ -13,7 +13,11 @@ const Navbar = () => {
         <div>
           <div className="flex items-center justify-between py-2 md:py-2 md:block">
             <a href="/">
-              <Image className="w-2/4 mx:w-3/4" src={logo} />
+              <Image
+                className="w-2/4 mx:w-3/4"
+                src={logo}
+                alt="Codes parrainage"
+              />
             </a>
             <div className="md:hidden">
               <button

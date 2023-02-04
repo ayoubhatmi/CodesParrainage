@@ -1,5 +1,4 @@
-@import "../scss/_colors.module.scss";
-@import "../scss/mixins";
+@use "../scss/index" as *;
 
 .heroContainer {
   display: flex;

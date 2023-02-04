@@ -1,5 +1,5 @@
 import { createClient } from "contentful";
-import PostCard from "../../components/PostCard";
+import BlogPostCard from "../../components/BlogPostCard";
 import Styles from "./BlogPage.module.scss";
 
 export default async function BlogPage() {
@@ -17,7 +17,7 @@ export default async function BlogPage() {
       <h2>Bienvenue sur notre blog !</h2>
       <div className={Styles.cardContainer}>
         {items.map((item) => (
-          <PostCard
+          <BlogPostCard
             key={item.sys.id}
             title={item.fields.title}
             image={item.fields.image}

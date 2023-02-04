@@ -1,11 +1,7 @@
-@import "../scss/_colors.module.scss";
-@import "../scss/_mixins.scss";
+@use "../scss/index" as *;
 
 .offerCard {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  @extend .center-vertically;
   background-color: $white;
   border-radius: 10px;
   // box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -32,7 +28,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    outline: 1px solid $grey;
+    outline: 1px solid $main-color;
     border-radius: 10px;
     width: 200px;
     height: 200px;

@@ -16,7 +16,7 @@ const Hero = () => {
         </Link>
       </div>
       <div className={Styles.imgContainer}>
-        <Image src={heroImg} alt="" />
+        <Image src={heroImg} alt="" priority="true" />
       </div>
     </section>
   );

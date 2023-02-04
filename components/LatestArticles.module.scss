@@ -1,10 +1,7 @@
-@import "../scss/_colors.module.scss";
+@use "../scss/index" as *;
 
 .latestArticles {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  @extend .center-vertically;
   background-color: $light-background;
   padding: 3rem 0;
 

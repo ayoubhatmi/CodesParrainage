@@ -14,7 +14,7 @@ const OfferCard = ({ name, offer, image, slug }) => {
   return (
     <div className={Styles.offerCard} onClick={HandelClick}>
       <div className={Styles.logoContainer}>
-        <Image className={Styles.logo} src={image} />
+        <Image className={Styles.logo} src={image} alt="" />
       </div>
       <p className={Styles.name}>{name}</p>
       <p className={Styles.offer}>{offer}</p>

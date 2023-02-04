@@ -1,11 +1,10 @@
-@import "../scss/_colors.module.scss";
+@use "../scss/index" as *;
 
 form {
-  display: flex;
-  flex-direction: column;
+  @extend .center-vertically;
   width: 100%;
-  align-items: center;
   margin-top: 2rem;
+
   .input-case {
     background-color: $white;
     padding: 1rem;

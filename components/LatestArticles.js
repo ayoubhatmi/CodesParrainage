@@ -1,6 +1,6 @@
 import Styles from "./LatestArticles.module.scss";
 import { createClient } from "contentful";
-import PostCard from "./PostCard";
+import BlogPostCard from "./BlogPostCard";
 
 const LatestArticles = async () => {
   const client = createClient({
@@ -20,7 +20,7 @@ const LatestArticles = async () => {
       <h2>Nos derniers articles</h2>
       <div className={Styles.cardContainer}>
         {latestArticles.map((item) => (
-          <PostCard
+          <BlogPostCard
             key={item.sys.id}
             title={item.fields.title}
             image={item.fields.image}

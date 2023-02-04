@@ -37,6 +37,7 @@ const BolgPostPage = async ({ params }) => {
           className={Styles.img}
           width={852}
           height={480}
+          alt=""
         />
         <div className={Styles.text}>
           {documentToReactComponents(post.text)}
