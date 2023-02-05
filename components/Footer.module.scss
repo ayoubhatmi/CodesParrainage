@@ -2,7 +2,14 @@
 
 .Footer {
   @extend .center-vertically;
-  background-color: $dark-background;
+  background-color: #4158d0;
+  background: #4b6cb7; /* fallback for old browsers */
+ 
+  background: linear-gradient(
+    to right,
+    #182848,
+    #4b6cb7
+  );  
   color: $white;
   .listContainer {
     display: flex;
@@ -19,12 +26,12 @@
   .list {
     list-style: none;
     align-self: flex-start;
-    margin-bottom: 1rem;
+    // margin-bottom: 1rem;
   }
 
   .listHeader {
     font-size: 1.2rem;
-    font-weight: 500;
+    font-weight: 600;
     margin-bottom: 1rem;
   }
 
@@ -37,7 +44,7 @@
 
   .copyright {
     margin-bottom: 1rem;
-    color: $grey;
+    color: $white;
     font-size: 0.75rem;
   }
 
