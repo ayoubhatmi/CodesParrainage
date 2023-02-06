@@ -16,13 +16,14 @@ const OfferDetails = () => {
   const pathname = usePathname();
   const slug = pathname.replace("/offres-parrainage/", "");
   const offer = offers.find((offer) => offer.slug == slug);
-  const [active, setActive] = useState(true);
+  const [activeCopyBtn, setActiveCopyBtn] = useState(true);
 
   const HandelCopy = () => {
     copy(offer.referralCode);
-    setActive(!active);
+    setActiveCopyBtn(!activeCopyBtn);
   };
 
+  // Get 3 similar offers from same category.
   const similarOffers = offers
     .filter((off) => off.category == offer.category && off.name != offer.name)
     .slice(0, 3);
@@ -83,7 +84,7 @@ const OfferDetails = () => {
                   onClick={HandelCopy}
                 >
                   <span className={styles.button__text}>
-                    {active ? "Copier" : "Copié !"}
+                    {activeCopyBtn ? "Copier" : "Copié !"}
                   </span>
                   <span className={styles.button__icon}>
                     <MdContentCopy />

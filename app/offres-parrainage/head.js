@@ -1,10 +1,10 @@
 export default function Head() {
   return (
     <>
-      <title>Codes parrainage</title>
+      <title>Offres de Parrainage</title>
       <meta
         name="description"
-        content="Top des offres de Parrainage. Trouvez un filleul ou devenez parrain pour gagner de l'argent !"
+        content="Trouver top des offres de parrainage et des codes promo pour gagner de l'argent !"
       />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
     </>

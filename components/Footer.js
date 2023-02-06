@@ -37,7 +37,7 @@ const Footer = () => {
       </div>
 
       <p className={Styles.copyright}>
-        CodesParrinage | tous droits réservés © 2023
+        CodesParrainage.com| tous droits réservés © 2023
       </p>
     </footer>
   );
