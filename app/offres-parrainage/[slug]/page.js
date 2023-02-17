@@ -32,24 +32,6 @@ const OfferDetails = () => {
     <div className={styles.OfferDetailsPage}>
       <h2 className={styles.header}>Code Promo de Parrainage {offer.name}</h2>
 
-      <div className={styles.descriptionContainer}>
-        <div className={styles.logoContainer}>
-          <Image className={styles.logo} src={offer.logo} alt="" />
-        </div>
-        <div>
-          <h2> {offer.name}</h2>
-          <p className={styles.text}>{offer.description}</p>
-        </div>
-      </div>
-
-      <div className={styles.avantagesContainer}>
-        <Image src={giftImg} className={styles.giftImg} alt="" />
-        <div>
-          <h2>Avantages en utilisant le parrainage {offer.name}</h2>
-          <p className={styles.text}>{offer.RefereeRewards} </p>
-        </div>
-      </div>
-
       <div className={styles.promoContainer}>
         <div className={styles.codeContainer}>
           <h2>Notre code Promo :</h2>
@@ -115,6 +97,24 @@ const OfferDetails = () => {
           d'inscription ou cliquer sur le lien ci-dessus afin de vous inscrire
           directement.
         </p>
+      </div>
+
+      <div className={styles.descriptionContainer}>
+        <div className={styles.logoContainer}>
+          <Image className={styles.logo} src={offer.logo} alt="" />
+        </div>
+        <div>
+          <h2> {offer.name}</h2>
+          <p className={styles.text}>{offer.description}</p>
+        </div>
+      </div>
+
+      <div className={styles.avantagesContainer}>
+        <Image src={giftImg} className={styles.giftImg} alt="" />
+        <div>
+          <h2>Avantages en utilisant le parrainage {offer.name}</h2>
+          <p className={styles.text}>{offer.RefereeRewards} </p>
+        </div>
       </div>
 
       {similarOffers.length ? (

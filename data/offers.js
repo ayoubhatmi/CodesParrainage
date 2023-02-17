@@ -51,12 +51,13 @@ export const offers = [
     offer: "130€", //Avantages filleul
     detailsLink:
       "https://www.boursorama.com/aide-en-ligne/nos-offres/parrainage",
-    referralLink: "https://www.boursorama.com/",
+    referralLink:
+      "https://ouvrir-un-compte.boursorama-banque.com/landing/parrainage?code_parrain=MOHA0793&picture=xzZSLsQ3tGf6H58O8aBd4ha2NkBob6tjNCjjBNZzzNW7UIwycr7zB88EhLPjC2lAB21pOtW_CaXa-SmiXHbSDy9ULjcS7TV53vd21_zhN-0wn7BTeM3mdfo59wwA2JDQdpblE0_i4DKG6tOiW62NMtRlnpqSVZakySDvJZDqOdk&origine=868",
     referralCode: "BEHA6822",
     ReferrerRewards:
       "80€ offerts si le parrain majeur détient au moins l'un des produits suivants: CB activée, produit d'assurance, livret d’épargne, crédit (immobilier ou consommation), un produit de bourse (compte titre, PEA, PEA-PME, Assurance Vie) Dans la limite de 20 parrainages sur 12 mois glissants.", //Avantages parrain
     RefereeRewards:
-      "60€ pour l'ouverture d'un compte personnel ou professionnel avec une CB Visa Welcome ou ULTIM (hors offre METAL) versés sur le compte le jour de son ouverture OU 8 mois de cotisation gratuits pour la souscription à l'offre METAL + 0.80€ versé sur le compte bancaire au cours du 8ème mois + 70€ pour toute première utilisation du service de mobilité bancaire EasyMove à condition que la demande soit faite dans le mois qui suit l'ouverture de compte.", //Avantages filleul
+      "130€ pour l'ouverture d'un compte personnel ou professionnel.", //Avantages filleul
   },
 
   {
