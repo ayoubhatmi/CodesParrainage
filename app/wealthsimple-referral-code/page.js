@@ -41,7 +41,7 @@ const OfferDetails = () => {
   return (
     <div className={styles.OfferDetailsPage}>
       <h2 className={styles.header}>
-        Wealthsimple Free Bonus on first time sign-up
+        Wealthsimple free bonus on first time sign-up
       </h2>
 
       <div className={styles.promoContainer}>

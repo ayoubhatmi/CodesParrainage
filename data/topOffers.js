@@ -50,7 +50,7 @@ export const topOffers = [
     detailsLink:
       "https://www.boursorama.com/aide-en-ligne/nos-offres/parrainage",
     referralLink: "https://www.boursorama.com/",
-    referralCode: "BEHA6822",
+    referralCode: "MOHA0793",
     ReferrerRewards:
       "80€ offerts si le parrain majeur détient au moins l'un des produits suivants: CB activée, produit d'assurance, livret d’épargne, crédit (immobilier ou consommation), un produit de bourse (compte titre, PEA, PEA-PME, Assurance Vie) Dans la limite de 20 parrainages sur 12 mois glissants.", //Avantages parrain
     RefereeRewards:
