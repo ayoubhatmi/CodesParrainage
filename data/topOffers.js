@@ -49,8 +49,8 @@ export const topOffers = [
     offer: "130€", //Avantages filleul
     detailsLink:
       "https://www.boursorama.com/aide-en-ligne/nos-offres/parrainage",
-    referralLink: "https://www.boursorama.com/",
-    referralCode: "MOHA0793",
+    referralLink: "https://www.boursorama-banque.com/landing/parrainage?code_parrain=SOME7653J8&picture=2SlFtpLBl3ZJDDi1W4M2naxEAN6E6SZyxBi6P_9fm_h7E1cz17e4JOrNPsCxM8XWNmBu27j5ejwjViOVu_RQhCzklM1vWGHNa_5QtquOFSgjDuMi-6vd6FvKxFXX1lN_R7zrW8KJnvXI4dr-oQW2_9GOFR-gYWQkDHFfSAJQzaA&origine=868",
+    referralCode: "SOME7653J8",
     ReferrerRewards:
       "80€ offerts si le parrain majeur détient au moins l'un des produits suivants: CB activée, produit d'assurance, livret d’épargne, crédit (immobilier ou consommation), un produit de bourse (compte titre, PEA, PEA-PME, Assurance Vie) Dans la limite de 20 parrainages sur 12 mois glissants.", //Avantages parrain
     RefereeRewards:
