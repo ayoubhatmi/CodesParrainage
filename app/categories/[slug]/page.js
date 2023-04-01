@@ -1,16 +1,21 @@
-"use client";
-
 import Styles from "./CategoryPage.module.scss";
 import { categories } from "../../../data/categories";
-import { usePathname } from "next/navigation";
 import OfferCard from "../../../components/OfferCard";
 import { offers } from "../../../data/offers";
 
-const CategoryPage = () => {
-  const pathname = usePathname();
-  const slug = pathname.replace("/categories/", "");
+export async function generateMetadata({ params }) {
+  const category = categories.find((item) => item.slug == params.slug);
 
-  const category = categories.find((item) => item.slug == slug);
+  return {
+    title: category.name,
+    description:
+      "Découvrez les meilleures offres de parrainage pour la catégorie " +
+      category.name,
+  };
+}
+
+const CategoryPage = ({ params }) => {
+  const category = categories.find((item) => item.slug == params.slug);
 
   const offersByCategory = offers.filter(
     (offer) => offer.category == category.name

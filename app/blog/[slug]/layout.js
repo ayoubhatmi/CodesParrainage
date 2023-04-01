@@ -15,19 +15,18 @@ export async function generateStaticParams() {
   }));
 }
 
-export default async function Head({ params }) {
+export async function generateMetadata({ params }) {
   const { items } = await client.getEntries({
     content_type: "blogPost",
     "fields.slug": params.slug,
   });
 
   const post = items[0].fields;
-
-  return (
-    <>
-      <title>{post.title}</title>
-      <meta name="description" content={post.title} />
-      <meta name="viewport" content="width=device-width, initial-scale=1" />
-    </>
-  );
+  return {
+    title: post.title,
+    description: post.title,
+  };
+}
+export default async function OffreLayout({ children }) {
+  return <section>{children}</section>;
 }

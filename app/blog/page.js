@@ -2,6 +2,10 @@ import { createClient } from "contentful";
 import BlogPostCard from "../../components/BlogPostCard";
 import Styles from "./BlogPage.module.scss";
 
+export const metadata = {
+  title: "Codes parrinage | Blog",
+};
+
 export default async function BlogPage() {
   const client = createClient({
     space: process.env.CONTENTFUL_SPACE_ID,

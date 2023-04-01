@@ -9,6 +9,12 @@ const lato = Lato({
   subsets: ["latin"],
 });
 
+export const metadata = {
+  title: "Codes parrainage",
+  description:
+    "Top des offres de Parrainage. Trouvez un filleul ou devenez parrain pour gagner de l'argent !",
+};
+
 export default function RootLayout({ children }) {
   return (
     <html lang="fr" className={lato.className}>

@@ -2,6 +2,12 @@ import Styles from "./OffresParrainage.module.scss";
 import OfferCard from "../../components/OfferCard";
 import { offers } from "../../data/offers";
 
+export const metadata = {
+  title: "Offres de Parrainage",
+  description:
+    "Trouver top des offres de parrainage et des codes promo pour gagner de l'argent !",
+};
+
 const OffresParrainage = () => {
   return (
     <div className={Styles.offresPage}>

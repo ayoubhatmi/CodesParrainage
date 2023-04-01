@@ -33,11 +33,6 @@ const OfferDetails = () => {
     setActiveCopyBtn(!activeCopyBtn);
   };
 
-  // Get 3 similar offers from same category.
-  // const similarOffers = offers
-  //   .filter((off) => off.category == OFFER.category && off.name != OFFER.name)
-  //   .slice(0, 3);
-
   return (
     <div className={styles.OfferDetailsPage}>
       <h2 className={styles.header}>
@@ -127,25 +122,6 @@ const OfferDetails = () => {
           <p className={styles.text}>{OFFER.RefereeRewards} </p>
         </div>
       </div>
-      {/* 
-      {similarOffers.length ? (
-        <div className={styles.similarOffers}>
-          <h2 className={styles.similarOffersHeader}>
-            Autres offres dans la catégorie {OFFER.category}
-          </h2>
-          <div className={styles.cardContainer}>
-            {similarOffers.map((offer, index) => (
-              <OfferCard
-                name={offer.name}
-                offer={offer.offer}
-                image={offer.logo}
-                slug={offer.slug}
-                key={index}
-              />
-            ))}
-          </div>
-        </div>
-      ) : null} */}
     </div>
   );
 };

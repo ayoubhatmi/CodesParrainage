@@ -4,7 +4,6 @@ import Image from "next/image";
 import styles from "./OfferDetails.module.scss";
 import Link from "next/link";
 import { offers } from "../../../data/offers";
-import { usePathname } from "next/navigation";
 import giftImg from "../../../images/gift-bag.svg";
 import { useState } from "react";
 import copy from "copy-to-clipboard";
@@ -12,10 +11,8 @@ import { HiOutlineExternalLink } from "react-icons/hi";
 import { MdContentCopy } from "react-icons/md";
 import OfferCard from "../../../components/OfferCard";
 
-const OfferDetails = () => {
-  const pathname = usePathname();
-  const slug = pathname.replace("/offres-parrainage/", "");
-  const offer = offers.find((offer) => offer.slug == slug);
+const OfferDetails = ({ params }) => {
+  const offer = offers.find((offer) => offer.slug == params.slug);
   const [activeCopyBtn, setActiveCopyBtn] = useState(true);
 
   const HandelCopy = () => {
