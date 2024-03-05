@@ -52,8 +52,8 @@ export const offers = [
     detailsLink:
       "https://www.boursorama.com/aide-en-ligne/nos-offres/parrainage",
     referralLink:
-      "https://www.boursobank.com/landing/parrainage?code_parrain=BEKH5727&picture=LrmREh8FL7SS2AoDmFQ00y5-cxstut3YG1dKiqjil1aGxCR4OOJCfzlUsCpRO14EQzMozyR4_DaESxQodADSPPG_VrDZ1b0x4PLNot9wRnPDB6HX435ptTBhvuz9d4b00rtAWyi5IjwNgyZr_ih7ByLBSy5SlxMygQilc2ORLeE&origine=868",
-    referralCode: "BEKH5727",
+      "https://www.boursobank.com/landing/parrainage?code_parrain=MOHA0793&picture=yJ8oQ875Tyz3vwTKhOW8VdM8TXAvMHPoSlR-12x-2znvBmtY_EkZn8gDlSoiK_ZueArTddW_mm3-YYzkGBxbuJdZsi7UFUlMSnIHU782DAG6Y9F0mIOvmdbOB6ofM1G7ITBYOfm2bw5yauOX3oOcPoeZAnwbR90XLKNE4s1C54I&origine=868&dclid=CLPvoMa83IQDFTdKHQkddacGRA",
+    referralCode: "MOHA0793",
     ReferrerRewards:
       "80€ offerts si le parrain majeur détient au moins l'un des produits suivants: CB activée, produit d'assurance, livret d’épargne, crédit (immobilier ou consommation), un produit de bourse (compte titre, PEA, PEA-PME, Assurance Vie) Dans la limite de 20 parrainages sur 12 mois glissants.", //Avantages parrain
     RefereeRewards:
